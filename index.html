@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-acale=1.0">
+<title>ToDo App</title>
+<link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+<div class="wrapper">
+<header>Todo App</header>  
+<div class="input field">
+ <input type="text" placeholder="Add your new todo">
+<button>Add</button>
+    </div>
+<ul class="todoList">
+    
+    </ul>
+<div class="footer">
+    <span>You have</span class="pendingTasks"><span>pending tasks </span>
+    <button>Clear All</button>
+    </div>
+    </div> 
+    
+</body>
+<script type="text/javascript">
+ //declaring all variables
+const inputBox = document.querySelector(".inputField input");
+const addBtn = document.querySelector(".inputField button");
+const todoList = document.querySelector(".todoList");
+const deleteAllBtn = document.querySelector(".footer button");
+    
+//onkeyup event
+inputBox.onkeyup = ()={
+    let userEntered = inputBox.value;
+    if(userEnteredValue.trim() != 0){
+    addBtn.classList.add("active");
+}else{
+addBtn.classList.remove("active");
+}
+}
+showTasks();
+
+addBtn.
+    
+    </script>
+
+</html>
